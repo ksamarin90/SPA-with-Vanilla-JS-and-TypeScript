@@ -1,0 +1,91 @@
+@import 'reset.css';
+
+body, button, select, input {
+    font-family: 'Play', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+nav a{
+    color: rgb(8, 6, 6);
+}
+
+nav a + a {
+    margin-left: 50px;
+}
+
+button {
+    background: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+button[data-select='yes'] {
+    border: 1px solid ;
+    color: red;
+}
+
+button[data-select='no'] {
+    border: 1px solid rgb(28, 124, 28);
+    color: green;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dashboard th {
+    font-weight: bold;
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+}
+
+.dashboard td {
+    width: 200px;
+    padding: 10px 0;
+}
+
+.exchange td {
+    width: 150px;
+    height: 40px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.exchange select {
+    width: 100%;
+}
+
+.exchange select, .exchange input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.equal {
+    font-size: 24px;
+}
