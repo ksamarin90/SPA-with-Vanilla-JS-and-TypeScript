@@ -1,3 +1,5 @@
+Tried out to make SPA application for simple currency exchange. No libraries are used, only vanilla js with typescript.
+
 1. Install dependencies for ts compilation
 - npm install
 
